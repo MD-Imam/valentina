@@ -1,0 +1,139 @@
+@media (min-width:320px) and (max-width:575px) {
+
+
+/* ============navbar=========== */
+.header-top ul li{
+ margin-right: 0px;
+}
+.header-top ul{
+ text-align: center;
+ margin-right: 0;
+ background: rgba(241, 241, 241,.7);
+ padding-bottom: 20px;
+}
+
+.header-top .navbar-brand img{
+ transform: scale(.8);
+}
+
+.header-top .fixed{
+ padding-top: 4px;
+ padding-bottom: 8px;
+}
+
+.header-top ul li .nav-link{
+ margin-top: 20px;
+}
+
+.login-button{
+ display: none;
+}
+
+/* ============banner part  start=========== */
+
+
+.banner .text h3{
+ font-size: 50px;
+}
+.banner .text h2{
+ font-size: 70px;
+}
+.banner .text p{
+ font-size: 15px;
+}
+
+/* ===========\ gift  and proposal part start=========== */
+
+.history .img3 img{
+ margin-top: 0;
+}
+
+/* ===========\ capture part start=========== */
+
+#captures .text-area .title{
+ font-size: 22px;
+}
+
+#captures .text-area .sub-title{
+ font-size: 26px;
+}
+#captures .text-area .details1{
+ font-size: 14px;
+}
+#captures .text-area .details2{
+ font-size: 14px;
+}
+
+/* ===========\ counter part start=========== */
+
+#counter-down {
+ display: none;
+}
+
+#counter-down .counter-down-flex .items{
+ height: 124px;
+}
+
+
+/* ===========\ slider part start=========== */
+
+#slick-slide .client .img-area{
+ flex-direction: column;
+}
+
+#slick-slide .client{
+ text-align: center;
+}
+#slick-slide .client .img-area .text{
+ margin: 0 auto;
+}
+
+#slick-slide .client .img-area .name{
+ margin-left: 0;
+}
+
+#slick-slide .client .img-area .designation{
+ margin-left: 0;
+}
+
+#slick-slide .client .img-area .img{
+ margin: 0 auto;
+}
+
+.prev{
+ display: none !important;
+}
+.next{
+ display: none !important;
+}
+
+
+/* ===========\ news latter part start=========== */
+
+#newsletter .news-form{
+ padding: 15px 20px;
+}
+
+#newsletter .news{
+ display: none;
+}
+#newsletter .news-form .name{
+ margin-top: 0 !important;
+}
+#newsletter .news-form .name input{
+ padding: 5px;
+
+}
+#newsletter .news-form .email input{
+ padding: 5px;
+}
+
+#newsletter .news-form .email{
+ margin-top: 10px;
+}
+
+
+
+
+
+}

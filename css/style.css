@@ -1,0 +1,899 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul,
+ol {
+    list-style: none;
+
+}
+
+a,
+a:hover,
+a:focus {
+    text-decoration: none;
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+.clr {
+    clear: both;
+
+}
+/* --================================================================================
+                                header-top start
+==================================================================================== */
+
+.header-top nav{
+    width: 100% !important;
+    background: transparent;
+    padding: 20px 0 !important;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+}
+.header-top .fixed{
+    padding-top: 8px !important;
+    padding-bottom: 18px !important;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    background:  #fbdfe6;
+   animation: mymove .8s ease-in-out;
+}
+@keyframes mymove {
+    from{
+        top:-65px ;
+    }
+    left{
+        top: 0;
+    }
+}
+
+
+.header-top nav .navbar-brand{
+    padding: 0;
+}
+
+.header-top nav{
+    padding: 0;
+}
+.header-top ul li .nav-link{
+    padding: 0;
+}
+.header-top ul{
+    text-align: right;
+    list-style: none;
+    margin-top: 10px;
+    margin-right:30px;
+}
+
+.header-top ul li{
+    display: inline-block;                 /*  */
+    position: relative;                    /*  */
+    margin-right:20px;                     /*  */
+}                                          /*  */
+.header-top ul li img{                     /*  */   /*////////// nav hover img //////////*/
+    position: absolute;                    /*  */       
+    bottom: -30px;                         /*  */
+    left: 50%;                             /*  */
+    transform: translateX(-50%);           /*  */
+    opacity: 0;                            /*  */
+     transition: .4s;                      /*  */
+}
+.header-top ul li:hover img{
+    bottom: -20px; 
+    opacity: 1;
+}
+.header-top ul li .nav-link{
+    color: #000;
+    text-decoration: none;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 17px;
+    transition: .4s;
+    padding: 0;
+    position: relative;
+}
+.header-top ul li .nav-link:hover{
+    color: #d50a51;
+}
+
+.login-button{
+    display: inline-block;
+    text-align: right;
+    
+}
+.login-button a{
+   
+    border: 1px solid #d50a51;
+    border-radius: 25px;
+    color: #d50a51;
+    padding: 8px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition: .9s;   
+}
+.login-button a:hover{
+    background: #d50a51;
+    color: #fff;
+}
+/* --================================================================================
+                                header-top end
+====================================================================================- */
+
+
+/*  --================================================================================
+                                banner start
+==================================================================================== */
+
+.banner {
+    width: 100%;
+    background-image: url(../images/banner.jpg);
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+.banner .img img{
+    width: 100%;
+    height: 100%;
+}
+.banner .text{
+    text-align: center;
+}
+.banner .text h3{
+    color: #8a5e3b;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 60px;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 150px;
+}
+.banner .text h2 {
+    font-family: 'Great Vibes', cursive;
+    font-size: 80px;
+    color: #d50a51;
+    text-align: center;
+}
+.banner .text p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: #444;
+    line-height: 26px;
+    padding-bottom: 45px;
+}
+
+.banner a{
+    background-color: #fff;
+    border: 1px solid #d50a51;
+    border-radius: 25px;
+    color: #d50a51;
+    padding: 8px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+   
+    cursor: pointer;
+    transition: .9s;
+}
+.banner a:hover{
+    background: #d50a51;
+    color: #fff;
+}
+/* --================================================================================
+                                banner end
+====================================================================================- */
+
+
+
+/* --================================================================================
+                                about2 start
+==================================================================================== */
+
+.about2 {
+    padding-bottom: 100px;
+    padding-top: 60px;
+}
+
+.about2 .img2 img{
+    width: 90%;
+}
+
+.about2 .text2 h3 {
+    font-family: 'Josefin Sans', sans-serif;
+    color: #444;
+    font-size: 24px;
+    text-transform: capitalize;
+}
+.about2 .text2 h2 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 32px;
+    color: #d50a51;
+    padding-bottom: 30px;
+}
+.about2 .text2 .details1 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+    color: #444;
+}
+.about2 .text2 .details2 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+    color: #444;
+    margin-top: 20px;
+}
+/*--================================================================================
+                                about2 end
+====================================================================================- */
+
+
+/* --================================================================================
+                                history start
+==================================================================================== */
+.history {
+    background: #fff6da;
+    padding: 60px 0;
+}
+
+.history .img3 {
+  
+    position: relative;
+}
+.history .img3 img{
+    width: 100%;
+   margin-top: -125px;
+}
+.history .text3 h3 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 24px;
+    color: #444;
+}
+.history .text3 h2 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 32px;
+    color: #d50a51;
+    padding-bottom: 30px;
+    text-transform: capitalize;
+}
+.history .text3 p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: #444;
+    margin-top: 10px;
+    line-height: 26px;
+}
+.history a{
+    border: 1px solid #d50a51;
+    border-radius: 25px;
+    color: #d50a51;
+    padding: 8px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    cursor: pointer;
+    transition: .9s;
+    margin-right: 20px;
+    margin-top: 30px;
+}
+.history a:hover{
+    background: #d50a51;
+    color: #fff;
+}
+/* --================================================================================
+                                history end
+====================================================================================-- */
+
+
+
+
+/* --================================================================================
+                               ticket start
+====================================================================================-- */
+
+
+.ticket {
+    padding: 80px 0;
+}
+
+.ticket .img4 img{
+    width: 100%;
+    height: 100%;
+   
+}
+.ticket .text4 h3 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 24px;
+    color: #444;
+    text-align: right;
+}
+.ticket .text4 h2 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 32px;
+    color: #d50a51;
+    padding-bottom: 30px;
+    text-transform: capitalize;
+    text-align: right;
+}
+.ticket .text4 p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: #444;
+    line-height: 26px;
+    margin-top: 10px;
+    text-align: right;
+}
+.ticket a{
+    border: 1px solid #d50a51;
+    border-radius: 25px;
+    color: #d50a51;
+    padding: 8px 20px;
+    text-decoration: none;
+    display: inline-block;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    cursor: pointer;
+    transition: .9s;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+.ticket a:hover{
+    background: #d50a51;
+    color: #fff;
+}
+.button4 {
+    text-align: right;
+}
+
+/*-================================================================================
+                               ticket end
+==================================================================================== */
+
+/* --================================================================================
+                                offer start
+=================================================================================== */
+.offer {
+    background: #fef7fa;
+    padding: 55px 0;
+}
+.offer .text-area h3 {
+    font-family: 'Josefin Sans', sans-serif;
+    color: #444;
+    font-size: 24px;
+    text-transform: capitalize;
+}
+.offer .text-area h2 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 32px;
+    color: #d50a51;
+    padding-bottom: 30px;
+    text-transform: capitalize;
+}
+.offer .text-area .details1 {
+
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    color: #444;
+    line-height: 26px;  
+}
+.offer .text-area .details2 {
+  
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    color: #444;
+    line-height: 26px;
+    margin-top: 20px;
+}
+
+
+
+.offer .offer-area .offer1 {
+    padding: 15px;
+    border-right: 3px solid transparent;
+    -webkit-box-shadow: 0px 0px 6px 1px rgba(0,0,0,0);
+    -moz-box-shadow: 0px 0px 6px 1px rgba(0,0,0,0);
+    box-shadow: 0px 0px 6px 1px rgba(0,0,0,0);
+    transition: .4s;
+}
+.offer .offer-area .offer1:hover {
+    border-right: 3px solid red;
+    -webkit-box-shadow: 0px 0px 6px 1px rgba(0,0,0,0.33);
+    -moz-box-shadow: 0px 0px 6px 1px rgba(0,0,0,0.33);
+    box-shadow: 0px 0px 6px 1px rgba(0,0,0,0.33);
+}
+.offer .offer-area .offer1 .offer-details {
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    color: #444;
+    line-height: 24px;
+    padding-top: 20px;
+    margin-bottom: 0;
+}
+.service-name span {
+    font-size: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+    padding-top: 5px;
+    margin-left: 20px;
+    color: #d50a51;
+    text-transform: capitalize;
+}
+
+/*--================================================================================
+                                offer end
+==================================================================================== */
+
+/*==============================================================================================================
+                                                captures start
+================================================================================================================*/
+
+#captures {
+    padding-top: 90px;
+    padding-bottom: 60px;
+}
+
+#captures .img-area .img{
+    margin-top: 20px;
+    height: 280px;
+    position: relative;
+}
+#captures .img-area .img img {
+    width: 100%;
+    height: 100%;
+  
+}
+#captures .img-area .img .overlay {
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: scale(0);
+    transition: .4s;
+}
+#captures .img-area .img:hover .overlay {
+    transform: scale(1);
+}
+#captures .img-area .img .overlay .icon {
+    width: 40px;
+    height: 400px;
+    position: absolute;
+    top: 15px;
+    right: 25px;
+}
+#captures .img-area .img .overlay .icon a {
+    margin: 7px;
+    color: #fff;
+    display: block;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    transition: .4s;
+}
+#captures .img-area .img .overlay .icon a:hover {
+    background: #d50a51;
+    border: 1px solid #d50a51;
+}
+#captures .img-area .img .overlay .text-area {
+    width: 100%;
+    position: absolute;
+    right: 25px;
+    bottom: 5px;
+}
+#captures .img-area .img .overlay .text-area h2 {
+    
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    color: #fff;
+    font-weight: 700;
+    margin-bottom: 10px;
+  
+}
+#captures .img-area .img .overlay .text-area ul {
+    list-style: none;
+}
+#captures .img-area .img .overlay .text-area ul li{
+    color: #fff;
+    display: inline-block;
+    margin-right: 6px;
+}
+#captures .text-area {
+    text-align: right;
+    
+}
+#captures .text-area .title {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 24px;
+    color: #444;
+    font-weight: 700;
+    margin-top: 20px;
+    text-transform: capitalize;
+ 
+}
+#captures .text-area .sub-title {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 32px;
+    color: #d50a51;
+    font-weight: 700;
+    padding-bottom: 30px;
+    text-transform: capitalize;
+
+}
+#captures .text-area .details1 {
+    letter-spacing: .5px;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    color: #444;
+    line-height: 26px;
+   
+}
+#captures .text-area .details2 {
+    letter-spacing: .5px;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    color: #444;
+    line-height: 26px;
+    margin-top: 20px;
+}
+#captures .text-area .button {
+    margin-top: 30px;
+}
+#captures .text-area .button a {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    padding: 10px 20px;
+    border: 1px solid #d50a51;
+    display: inline-block;
+    text-decoration: none;
+    color: #d50a51;
+    border-radius: 20px;
+    margin-left: 10px;
+    margin-top: 10px;
+    transition: .4s;
+}
+#captures .text-area .button a:hover {
+    background: #d50a51;
+    color: #fff;
+}
+
+/*==============================================================================================================
+                                                captures end
+================================================================================================================*/
+
+
+/*==============================================================================================================
+                                                counter-down start
+================================================================================================================*/
+#counter-down {
+    background: url(../images/counter-bg.jpg) no-repeat;
+    background-size: cover;
+}
+
+#counter-down .counter-down-flex .items {
+  
+    height: 200px;
+    text-align: center;
+    margin: 15px 0;
+}
+#counter-down .counter-down-flex .items .img2 {
+    margin-top: 18px;
+}
+#counter-down .counter-down-flex .items h1 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 42px;
+    font-weight: 700;
+    color: #d50a51;
+   
+    margin-bottom: 0;
+}
+#counter-down .counter-down-flex .items span {
+    font-family: 'Josefin Sans', sans-serif;
+    text-transform: capitalize;
+    font-size: 32px;
+    color: #444;
+}
+
+
+/*==============================================================================================================
+                                                counter-down end
+================================================================================================================*/
+
+
+
+/*==============================================================================================================
+                                                slick-slide start
+================================================================================================================*/
+
+#slick-slide {
+    margin: 50px 0px 140px 0px;
+}
+#slick-slide .client{
+    background: #fffae2;
+    padding: 40px 30px 20px 30px;
+ 
+}
+#slick-slide .client .text-area .details {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: #444;
+    line-height: 26px;
+}
+#slick-slide .client .img-area {
+    margin-top: 20px;
+    display: flex;
+}
+#slick-slide .client .img-area .img {
+    width: 90px;
+}
+#slick-slide .client .img-area .img img{
+    width: 100%;
+}
+#slick-slide .client .img-area .text {
+   margin-right: auto;
+}
+#slick-slide .client .img-area .name {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    color: #222;
+    text-transform: capitalize;
+    margin: 25px 0px 0px 25px
+}
+#slick-slide .client .img-area .designation {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 18px;
+    color: #444;
+    text-transform: capitalize;
+    margin: 0px 0px 0px 25px
+}
+.prev {
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    border: 1px solid #d50a51;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: -1%;
+    transform: translate(-50%,-50%);
+    z-index: 1;
+    color: #d50a51;
+}
+.next {
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    border: 1px solid #d50a51;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    right: -5%;
+    transform: translate(-50%,-50%);
+    z-index: 1;
+    color: #d50a51;
+}
+
+.slick-dots {
+    display: none !important;
+}
+
+
+
+/*==============================================================================================================
+                                                slick-slide end
+================================================================================================================*/
+
+
+/*==============================================================================================================
+                                                newsletter start
+================================================================================================================*/
+#newsletter {
+    background: url(../images/footer-bg.jpg) no-repeat;
+    background-size: cover;
+    position: relative;
+    padding-bottom: 30px;
+}
+#newsletter .news-position {
+    position: relative;
+}
+#newsletter .news-form{
+    width: 100%;
+    background: #d50a51;
+    border-radius: 50px;
+    /* padding: 20px 100px; */
+   padding: 10px  50px;
+    position: absolute;
+    top: -50px;
+    left: 0;
+}
+#newsletter .news-form ul {
+    list-style: none;
+}
+#newsletter .news-form ul li {
+    display: inline-block;
+}
+#newsletter .news-form ul li .news-icon {
+    font-size: 50px;
+    margin-top: 8px;
+    margin-right: 7px;
+    color: #fff;
+}
+#newsletter .news-form ul li .news-title {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 40px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+#newsletter .news-form ul li .news-sub-title {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 15px;
+    color: #fff;
+    font-weight: 400;
+
+}
+#newsletter .news-form .name {
+    margin-top: 15px;
+}
+#newsletter .news-form .name input {
+    padding: 10px;
+    background: transparent;
+    color: #fff;
+    border-radius: 0;
+}
+#newsletter .news-form .email {
+    margin-top: 15px;
+}
+#newsletter .news-form .email input{
+    padding: 10px;
+    background: transparent;
+    color: #fff;
+    border-radius: 0;
+}
+#newsletter .news-form .email button {
+    background: transparent;
+} 
+#newsletter .news-form .email button .submit {
+    color: #fff;
+    border-left: 1px solid #fff;
+    line-height: 34px;
+    width: 34px;
+}
+#newsletter .img-title {
+    padding-top: 90px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+#newsletter .items {
+    display: flex;
+    justify-content: space-around;
+}
+#newsletter .items .item {}
+#newsletter .items .item ul {
+    list-style: none;
+}
+#newsletter .items .item ul li{
+    display: inline-block;
+}
+#newsletter .items .item ul li a{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    color: #444;
+    text-decoration: none;
+    margin-left: 20px;
+    line-height: 26px;
+    
+}
+#newsletter .items .item ul li .icon-bg {
+    width: 50px;
+    height: 50px;
+    background: #d50a51;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 50px;
+    color: #fff;
+    font-size: 24px;
+}
+#newsletter .title-text {}
+#newsletter .title-text h2{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    text-transform: capitalize;
+    color: #d50a51;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+#newsletter .social-icon{
+    text-align: center;
+}
+#newsletter .social-icon a i {
+    width: 40px;
+    height: 40px;
+    border: 1px solid #d50a51;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    color: #d50a51;
+    font-size: 20px;
+    margin-right: 10px;
+    transition: .4s;
+}
+#newsletter .social-icon a i:hover {
+    color: #fff;
+    background: #d50a51;
+}
+
+
+/*==============================================================================================================
+                                                newsletter end
+================================================================================================================*/
+/*==============================================================================================================
+                                                footer start
+================================================================================================================*/
+
+#footer {
+    background: #fffae2;
+    padding: 20px 0;
+    text-align: center;
+}
+
+#footer p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: #444444;
+}
+#footer p a{
+    text-decoration: none;
+    color: #d50a51;
+}
+
+
+
+/*==============================================================================================================
+                                                footer end
+================================================================================================================*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
